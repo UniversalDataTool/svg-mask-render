@@ -1,11 +1,14 @@
 {
   "name": "svg-mask-render",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "canvaskit-wasm": "^0.17.3",
     "canvg": "^3.0.6",
     "jsdom": "^16.4.0",
+    "memory-streams": "^0.1.3",
+    "pureimage": "^0.2.5",
     "skia-canvas": "^0.9.19"
   }
 }
