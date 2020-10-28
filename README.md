@@ -8,7 +8,9 @@ Existing libraries often had problems with serverless platforms, inconsistency a
 
 ## Usage
 
-```
+`npm install svg-render`
+
+```javascript
 const render = require("svg-render")
 
 render(svgText, { output: "pngbuffer" }).then((pngBuffer) => {
